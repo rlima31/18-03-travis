@@ -4,7 +4,7 @@ python:
 
 #command to run test
 script:
-  -py.test teste.py
+  - py.test teste.py
 after script:
 notifications:
   recipients:
