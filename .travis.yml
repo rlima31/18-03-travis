@@ -1,0 +1,12 @@
+language: python
+python:
+-"3.6"
+
+#command to run test
+script:
+  -py.test teste.py
+after script:
+notifications:
+  recipients:
+    - raphaellima31@hotmail.com
+  
